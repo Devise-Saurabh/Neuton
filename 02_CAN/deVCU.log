@@ -1,0 +1,320 @@
+Conversion Warnings Log
+
+
+MSG_ID: 2 	MSG_TYPE: S 	MSG_NAME: New_Message_71
+	SIG_NAME: New_Signal_456, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 1 	MSG_TYPE: S 	MSG_NAME: New_Message_70
+	SIG_NAME: New_Signal_455, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 0 	MSG_TYPE: S 	MSG_NAME: New_Message_69
+	SIG_NAME: New_Signal_454, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 1638 	MSG_TYPE: S 	MSG_NAME: GPIO_Check_VCUTest1
+	SIG_NAME: P08, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: P35, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: P36, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: P38, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: P52, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: P53, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: P54, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: P55, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: P61, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: P11, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: P12, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: P13, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: P25, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: P27, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: P28, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: P29, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: P30, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: P32, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: ANL_P48, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: ANL_P49_24V, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: P07, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: ANL_P50_24V, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: ANL_P65_12V, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: ANL_P67_5V, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 144 	MSG_TYPE: S 	MSG_NAME: ADC1To8
+	SIG_NAME: Power_Supply24v, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: ADC_P50, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: ADC_P49, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: ADC_P59, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: ADC_P69, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: ADC_P29, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: ADC_P30, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: ADC_P60, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 15729920 	MSG_TYPE: X 	MSG_NAME: Gear_Selector_ETC7
+	SIG_NAME: Motor_Speed, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Traction_Battery_Current, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Traction_Battery_SOC, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: HV_System_Voltage, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Tras_Current_Range, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 1366 	MSG_TYPE: S 	MSG_NAME: VCU_ParaLoggingTx2
+	SIG_NAME: VCU_ParaLib_TrqResponse, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: VCU_Paralog_MCUCurrent, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 1365 	MSG_TYPE: S 	MSG_NAME: VCU_ParaLoggingTx1
+	SIG_NAME: VCU_ParaLogCoolentOut, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: VCU_ParaLogCoolentIn, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: VCU_ParaLog_MotorRPM, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: VCU_Paralog_VehSpeed, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: VCU_Paralog_TrqCmd, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 201393157 	MSG_TYPE: X 	MSG_NAME: Refu_DC_AC_to_VCU_RX2
+	SIG_NAME: Output_current_EHVS, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Output_current_Aircomp, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Actual_Temp_Pump_Aircomp, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 418119663 	MSG_TYPE: X 	MSG_NAME: VCU_CFG_EM1_ER_TX
+	SIG_NAME: EM1_Ret_Location, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: EM1_Ref_Eng_Torq, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: EM1_Ref_Ret_Torq, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 418185199 	MSG_TYPE: X 	MSG_NAME: VCU_CFG_EM1_BAM_TX
+	SIG_NAME: TPCM_EM1_PGN, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: TPCM_TPDT_5thFrame, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: TPCM_TPDT_Frames, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: TPCM_EM1_BAM, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 217050891 	MSG_TYPE: X 	MSG_NAME: VCU_EMC1_EM1_RX
+	SIG_NAME: EM1_Req_Trq_Trq_Limit_Driving, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: EM1_Req_Trq_Trq_Limit_Braking, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: EM1_Ovr_Ctrl_Mode_Prio_Driving, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: EM1_Ovr_Ctrl_Mode_Prio_Braking, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: EM1_Ovr_Ctrl_Mode_Driving, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: EM1_Ovr_Ctrl_Mode_Braking, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: EM1_MessageCounter, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: EM1_MessageChecksum, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 419361024 	MSG_TYPE: X 	MSG_NAME: VCU_CCVS_TX
+	SIG_NAME: Wheel_Based_Vehicle_Speed, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Parking_Brake_Switch, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 419356416 	MSG_TYPE: X 	MSG_NAME: VCU_EEC3_TX
+	SIG_NAME: AP_Low_Idle_Switch, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Road_Speed_Limit_Status, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Red_Stop_Lamp_Stop_HV, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Vehicle_Plugged_In, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Regen_Braking_Available, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Air_Compressor_Available, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Trac_System_Reduced_Per_Mode, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Traction_Batt_Connected, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: HV_Ready, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Motor_Inverter_Over_Temp_Warning, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: High_Volt_Batt_2_Fault, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: High_Volt_Batt_1_Fault, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Tract_Batt_Over_Tempe_War, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Distance_to_empty_DTE, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Vehicle_Speed, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Traction_Battery_SOH, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Inverter_Temperature, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Traction_Battery_Temperature, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Nominal_Friction_Pct_Torq, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 419318275 	MSG_TYPE: X 	MSG_NAME: VCU_ETC7_TX
+	SIG_NAME: Transm_ready_for_brake_release, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 419373295 	MSG_TYPE: X 	MSG_NAME: VCU_EMRC1_EM1_TX
+	SIG_NAME: EM1_Torque_Mode_Driving_Braking, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: EM1_SA_of_Ctrl_Device, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: EM1_Ret_Selection_Non_Eng, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: EM1_EMotor_Output_Shaft_Speed, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: EM1_Driver_Retarder_Pct_Torque, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: EM1_Actual_Pct_Torque, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: EM1_Actual_MaxAvailRetPctTrq, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 419087619 	MSG_TYPE: X 	MSG_NAME: PumpInformation_Rx
+	SIG_NAME: PumpTemp, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: PumpVoltage, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: PumpUnderVoltageFault, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: PumpThermalFault, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: PumpStallFault, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: PumpSpeed, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: PumpOverVoltageFault, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: PumpOvercurrentFault, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: PumpFaultLevel, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: PumpDryRunFault, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: PumpCurrent, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: PumpCommunicationFault, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 201392901 	MSG_TYPE: X 	MSG_NAME: Refu_DC_AC_to_VCU_RX1
+	SIG_NAME: Fault_code_EHVS_VCU_RX, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: DC_Link_Voltage_VCU_RX, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 217056130 	MSG_TYPE: X 	MSG_NAME: Acc_Pedal_Pos_Rx
+	SIG_NAME: Acc_Pedal2KickdownSwitch, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 201392133 	MSG_TYPE: X 	MSG_NAME: Gear_Selector_DNRP
+	SIG_NAME: transRequest_Gear, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: GearSelector_TestSig2, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: GearSelector_TestSig1, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 403085735 	MSG_TYPE: X 	MSG_NAME: HOST_AllTempRequest
+	SIG_NAME: ReplyCount_HostAllCellTempReq, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: CellCount_HostAllCellTempReq, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 418581143 	MSG_TYPE: X 	MSG_NAME: BMS_AverageCell_Temp
+	SIG_NAME: BMS_AverageCellTemperature, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 1092 	MSG_TYPE: S 	MSG_NAME: VmuSelectProtocolVersion
+	SIG_NAME: MajorMcuProtocol, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: MinorMcuProtocol, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 1096 	MSG_TYPE: S 	MSG_NAME: McuPollingMcuResponse
+	SIG_NAME: MCU_Polling_MCU_Byte8, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: MCU_Polling_MCU_Byte7, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: MCU_Polling_MCU_Byte6, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: MCU_Polling_MCU_Byte5, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: MCU_Polling_MCU_Byte4, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: MCU_Polling_MCU_Byte3, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: MCU_Polling_MCU_Byte2, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: MCU_Polling_MCU_Byte1, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 1095 	MSG_TYPE: S 	MSG_NAME: VmuPollingMcu
+	SIG_NAME: McuRequestId, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 1088 	MSG_TYPE: S 	MSG_NAME: McuInfo1
+	SIG_NAME: HighPowerVoltageStatus, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: HighPowerCurrentStatus, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: AuxiliaryVoltageStatus, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 1090 	MSG_TYPE: S 	MSG_NAME: McuEventInfo1
+	SIG_NAME: FaultPhaseToChassisStatus, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: FaultInterlockMotorCableStatus, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: FaultInterlockBatteryCableStatus, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: FaultDriveCoverWasOpenedStatus, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 65 	MSG_TYPE: S 	MSG_NAME: VmuCommand2
+	SIG_NAME: TorqueCommandStatus, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: SpeedCommandStatus, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 1094 	MSG_TYPE: S 	MSG_NAME: VmuPollingVmuResponse
+	SIG_NAME: Acknowledgement, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: BootNumber, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 1093 	MSG_TYPE: S 	MSG_NAME: McuPollingVmu
+	SIG_NAME: McuPollingVmu_Byte8, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: McuPollingVmu_Byte7, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: McuPollingVmu_Byte6, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: McuPollingVmu_Byte5, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: McuPollingVmu_Byte4, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: McuPollingVmu_Byte3, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: McuPollingVmu_Byte2, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: McuPollingVmu_Byte1, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 1097 	MSG_TYPE: S 	MSG_NAME: McuThermal1
+	SIG_NAME: MotorCoolingFlowRequestStatus, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: DriveCoolingFlowRequestStatus, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 1089 	MSG_TYPE: S 	MSG_NAME: McuInfo2
+	SIG_NAME: MotorTorqueEstimatedStatus, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: RegenTorqueAvailStatus, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: TractionTorqueAvailStatus, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 68 	MSG_TYPE: S 	MSG_NAME: McuCommand2Response
+	SIG_NAME: SpeedReductionRequest, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: EmergencyStop, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: MotorAngleStatus, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: MotorSpeedStatus, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: MotorAngle, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 67 	MSG_TYPE: S 	MSG_NAME: McuCommand1Response
+	SIG_NAME: MaxSafeMotorSpeedReverseStatus, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: MaxSafeMotorSpeedForwardStatus, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: RegenDeratingStatus, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: OperationalMode_McuCmd1Res, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: TractionDeratingStatus, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: RegenDerating, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: TractionDerating, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: StateMcu, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 64 	MSG_TYPE: S 	MSG_NAME: VmuCommand1
+	SIG_NAME: MinBatteryVoltageStatus, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: MaxDischargeCurrentStatus, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: MaxChargeCurrentStatus, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: MaxBatteryVoltageStatus, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: OperationRequest_VmuCmd1, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 403084199 	MSG_TYPE: X 	MSG_NAME: G2VCU_EVCC_Tx2
+	SIG_NAME: G2Nomi_Batt_Capa, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: G2Remain_Batt_Capa, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: G2EV_Error_Code, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: G2Vehi_Stop_Charg_Flag, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: G2Charg_Comp_Flag, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: G2EV_Ready_Flag, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 403084455 	MSG_TYPE: X 	MSG_NAME: G2VCU_EVCC_Tx1
+	SIG_NAME: G2Battery_Pack_Present_Volt, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: G2EV_Conti_Charg_Cur_Limit, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: G2SOC, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: G2EV_Max_Charg_Cur_Limit, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 969730 	MSG_TYPE: X 	MSG_NAME: G2EVCC_VCU_Rx2
+	SIG_NAME: G2_GunLockFeedback, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: G2Vehicle_Immobilize, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: G2Gun_Lock_Fault, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: G2Temperature2_Fault, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: G2Temperature1_Fault, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: G2Temperature_2_Val, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: G2Temperature_1_Val, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 418579079 	MSG_TYPE: X 	MSG_NAME: G2EVCC_VCU_Rx1
+	SIG_NAME: G2Diff_Current_Measure, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: G2Negative_Contactor_Control, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: G2Charging_Status, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: G2Positive_Contactor_Control, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: G2Charger_Gun_Detected, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: G2EVCC_Ready, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: G2EVCC_Status_Code, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 403084711 	MSG_TYPE: X 	MSG_NAME: G1VCU_EVCC_Tx2
+	SIG_NAME: G1Nomi_Batt_Capa, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: G1Remain_Batt_Capa, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: G1EV_Error_Code, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: G1Vehi_Stop_Charg_Flag, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: G1Charg_Comp_Flag, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: G1EV_Ready_Flag, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 403084967 	MSG_TYPE: X 	MSG_NAME: G1VCU_EVCC_Tx1
+	SIG_NAME: G1Battery_Pack_Present_Volt, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: G1EV_Conti_Charg_Cur_Limit, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: G1SOC, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: G1EV_Max_Charg_Cur_Limit, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 418578823 	MSG_TYPE: X 	MSG_NAME: G1EVCC_VCU_Rx1
+	SIG_NAME: G1Diff_Current_Measure, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: G1Negative_Contactor_Control, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: G1Charging_Status, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: G1Positive_Contactor_Control, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: G1Charger_Gun_Detected, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: G1EVCC_Status_Code, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 145 	MSG_TYPE: S 	MSG_NAME: ADC_9to16
+	SIG_NAME: ADC_P80, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: ADC_P71, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: ADC_P39, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: ADC_P40, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: ADC_P74, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: ADC_P72, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: ADC_P75, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: ADC_P73, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 1073741824 	MSG_TYPE: X 	MSG_NAME: VECTOR__INDEPENDENT_SIG_MSG
+	SIG_NAME: Max_Voltage, STATUS: No error, ACTION: Signal Discarded
+	SIG_NAME: Min_Voltage, STATUS: No error, ACTION: Signal Discarded
+	SIG_NAME: Op_Current_Fault_Port_1_2, STATUS: No error, ACTION: Signal Discarded
+	SIG_NAME: Module_Protection, STATUS: No error, ACTION: Signal Discarded
+	SIG_NAME: Over_Heat_Fault, STATUS: No error, ACTION: Signal Discarded
+	SIG_NAME: Under_Voltage_Fault, STATUS: No error, ACTION: Signal Discarded
+	SIG_NAME: Over_Voltage_Fault, STATUS: No error, ACTION: Signal Discarded
+	SIG_NAME: T2B_Signal_Life, STATUS: No error, ACTION: Signal Discarded
+	SIG_NAME: T2B_Fault_Code, STATUS: No error, ACTION: Signal Discarded
+	SIG_NAME: T2B_Comp_Frequency, STATUS: No error, ACTION: Signal Discarded
+	SIG_NAME: G1Vehicle_Immobilize, STATUS: No error, ACTION: Signal Discarded
+	SIG_NAME: EBS_Red_Warning_Lamp_State, STATUS: No error, ACTION: Signal Discarded
+	SIG_NAME: ABS_Fully_Operational, STATUS: No error, ACTION: Signal Discarded
+	SIG_NAME: RollingCounter_McuThermal2, STATUS: No error, ACTION: Signal Discarded

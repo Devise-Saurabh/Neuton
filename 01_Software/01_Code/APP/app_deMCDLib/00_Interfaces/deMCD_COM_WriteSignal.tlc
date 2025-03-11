@@ -1,0 +1,15 @@
+%implements "deMCD_COM_WriteSignal" "C"
+
+%% Function: Outputs ==========================================
+%%
+%function Outputs(block, system) Output
+  /* %<Type> Block: %<Name> */
+  %%
+  /* Insert Comment Here */
+  %assign rollVars = ["U", "Y"]
+  %roll idx = RollRegions, lcv = RollThreshold, block, "Roller", rollVars
+
+  RTE_Service_COM_vdWriteSignal((uint8_t)(%<LibBlockInputSignal(0, "", lcv, idx)>-1), %<LibBlockInputSignal(1, "", lcv, idx)>);
+
+  %endroll
+%endfunction

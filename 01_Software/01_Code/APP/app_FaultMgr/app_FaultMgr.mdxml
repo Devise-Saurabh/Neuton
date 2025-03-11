@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<swc name="app_FaultMgr" number="13">
+   <entry entryId="1" entryName="app_FaultMgr_fcn" entryTask="1ms"/>
+   <signal id="1" name="DTC_NONAME_5" type="float"/>
+   <signal id="2" name="FLT_CLR_DTC_NONAME_5" type="float"/>
+   <signal id="3" name="DTC_NONAME_6" type="float"/>
+   <signal id="4" name="FLT_CLR_DTC_NONAME_6" type="float"/>
+   <signal id="5" name="DTC_BMS_FAULT" type="float"/>
+   <signal id="6" name="FLT_CLR_DTC_BMS_FAULT" type="float"/>
+   <signal id="7" name="DTC_NONAME_8" type="float"/>
+   <signal id="8" name="FLT_CLR_DTC_NONAME_8" type="float"/>
+   <signal id="9" name="DTC_NONAME_9" type="float"/>
+   <signal id="10" name="FLT_CLR_DTC_NONAME_9" type="float"/>
+   <signal id="11" name="DTC_NONAME_10" type="float"/>
+   <signal id="12" name="FLT_CLR_DTC_NONAME_10" type="float"/>
+   <signal id="13" name="FLT_SystemErrorSeverity" type="float"/>
+</swc>
+

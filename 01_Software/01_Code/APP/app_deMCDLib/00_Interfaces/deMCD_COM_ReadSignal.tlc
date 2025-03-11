@@ -1,0 +1,27 @@
+%implements "deMCD_COM_ReadSignal" "C"
+
+%% Function: Outputs ==========================================
+%%
+%function Outputs(block, system) Output
+  /* %<Type> Block: %<Name> */
+  %%
+  /* Insert Comment Here */
+  %assign rollVars = ["U", "Y"]
+  %roll idx = RollRegions, lcv = RollThreshold, block, "Roller", rollVars
+
+  STATUS_t eStatus;
+  float fltValue;
+  eStatus = RTE_Service_COM_vdReadSignal((uint8_t)(%<LibBlockInputSignal(0, "", lcv, idx)>-1), &fltValue);
+  %<LibBlockOutputSignal(0, "", lcv, idx)> = fltValue;
+
+  if(eStatus == STATUS_OK)
+  {
+    %<LibBlockOutputSignal(1, "", lcv, idx)> = 1;
+  }
+  else
+  {
+  	%<LibBlockOutputSignal(1, "", lcv, idx)> = 0;
+  }
+  
+  %endroll
+%endfunction

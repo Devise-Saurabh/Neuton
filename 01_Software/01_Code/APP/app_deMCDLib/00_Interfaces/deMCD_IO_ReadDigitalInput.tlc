@@ -1,0 +1,30 @@
+%implements "deMCD_IO_ReadDigitalInput" "C"
+
+%% Function: Outputs ==========================================
+%%
+%function Outputs(block, system) Output
+  /* %<Type> Block: %<Name> */
+  %%
+  /* Insert Comment Here */
+  %assign rollVars = ["U", "Y"]
+  %roll idx = RollRegions, lcv = RollThreshold, block, "Roller", rollVars
+  
+  /*deMCD: User Defined Code Starts Here */
+  uint8_t u8DigitalValue;
+  STATUS_t eStatus;
+
+  eStatus = RTE_Service_IO_eInputRead((uint8_T)(%<LibBlockInputSignal(0, "", lcv, idx)>-1), &u8DigitalValue);
+  %<LibBlockOutputSignal(0, "", lcv, idx)> = u8DigitalValue;
+  
+if(eStatus == STATUS_OK)
+  {
+    %<LibBlockOutputSignal(1, "", lcv, idx)> = 1;
+  }
+  else
+  {
+    %<LibBlockOutputSignal(1, "", lcv, idx)> = 0;
+  }
+
+  /*deMCD: User Defined Code Ends Here */
+  %endroll
+%endfunction

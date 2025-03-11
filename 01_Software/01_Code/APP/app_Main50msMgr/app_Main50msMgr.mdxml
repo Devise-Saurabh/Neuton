@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<swc name="app_Main50msMgr" number="2">
+   <entry entryId="1" entryName="app_Main50msMgr_fcn" entryTask="50ms"/>
+   <signal id="1" name="APP_50MS_OUT1" type="float"/>
+   <signal id="2" name="APP_50MS_IN1" type="float"/>
+</swc>

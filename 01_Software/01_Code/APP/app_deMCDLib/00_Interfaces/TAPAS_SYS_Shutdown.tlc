@@ -1,0 +1,21 @@
+%implements "TAPAS_SYS_Shutdown" "C"
+
+%% Function: Outputs ==========================================
+%%
+%function Outputs(block, system) Output
+  /* %<Type> Block: %<Name> */
+  %%
+  /* Insert Comment Here */
+  %assign rollVars = ["U", "Y"]
+  %roll idx = RollRegions, lcv = RollThreshold, block, "Roller", rollVars
+  
+  /*TAPAS: User Defined Code Starts Here */
+
+  if(%<LibBlockInputSignal(0, "", lcv, idx)> != (real32_T)0)
+  {
+      RTE_Service_SYS_vdShutdown();
+  }
+
+  /*TAPAS: User Defined Code Ends Here */
+  %endroll
+%endfunction

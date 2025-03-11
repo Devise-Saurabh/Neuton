@@ -1,0 +1,630 @@
+ {
+    /*DIO Index*/
+    UC_DIO_INPUT_GIO0,
+    /*Module Id*/
+    UC_DIO_MODULE_GIOA,
+    /*Pin Id*/
+    UC_DIO_PIN_2,
+    /*Pointer to the module object*/
+    &UC_DIO_astrObj[UC_DIO_MODULE_GIOA],
+    /*Pin DIrection*/
+    UC_DIO_DIR_X,
+    /*Pin Mode*/
+    UC_DIO_PUSH_PULL_MODE,
+    /*Pull functionality enable/disable*/
+    UC_DIO_PULL_FCN_ENABLE,
+    /*Pull mode if any */
+    UC_DIO_PULL_DOWN_MODE,
+    /*Interrupt Enable/Disable*/
+    TAPAS_FALSE,
+    /*Interrupt Priority*/
+    UC_DIO_INT_PRIORITY_LOW,
+    /*Input Pin Interrupt Id */
+    UC_DIO_INT_INPUT_NOT_USED,
+    /*Interrupt Trigger*/
+    UC_DIO_INPUT_TRIGGER_NA,
+    /*Interrupt Callback */
+    TAPAS_NULL,
+    /* Value */
+    TAPAS_DEFAULT,
+  },
+  {
+    /*DIO Id*/
+    UC_DIO_INPUT_GIO1,
+    /*Module Id*/
+    UC_DIO_MODULE_GIOA,
+    /*Pin Id*/
+    UC_DIO_PIN_5,
+    /*Pointer to the module object*/
+    &UC_DIO_astrObj[UC_DIO_MODULE_GIOA],
+    /*Pin DIrection*/
+    UC_DIO_DIR_X,
+    /*Pin Mode*/
+    UC_DIO_PUSH_PULL_MODE,
+    /*Pull functionality enable/disable*/
+    UC_DIO_PULL_FCN_ENABLE,
+    /*Pull mode if any */
+    UC_DIO_PULL_DOWN_MODE,
+    /*Interrupt Enable/Disable*/
+    TAPAS_FALSE,
+    /*Interrupt Priority*/
+    UC_DIO_INT_PRIORITY_LOW,
+    /*Input Pin Interrupt Id */
+    UC_DIO_INT_INPUT_NOT_USED,
+    /*Interrupt Trigger*/
+    UC_DIO_INPUT_TRIGGER_NA,
+    /*Interrupt Callback */
+    TAPAS_NULL,
+    /* Value */
+    TAPAS_DEFAULT,
+  },
+  {
+    /*DIO Id*/
+    UC_DIO_INPUT_GIO2,
+    /*Module Id*/
+    UC_DIO_MODULE_GIOA,
+    /*Pin Id*/
+    UC_DIO_PIN_6,
+    /*Pointer to the module object*/
+    &UC_DIO_astrObj[UC_DIO_MODULE_GIOA],
+    /*Pin DIrection*/
+    UC_DIO_DIR_X,
+    /*Pin Mode*/
+    UC_DIO_PUSH_PULL_MODE,
+    /*Pull functionality enable/disable*/
+    UC_DIO_PULL_FCN_ENABLE,
+    /*Pull mode if any */
+    UC_DIO_PULL_DOWN_MODE,
+    /*Interrupt Enable/Disable*/
+    TAPAS_TRUE,
+    /*Interrupt Priority*/
+    UC_DIO_INT_PRIORITY_LOW,
+    /*Input Pin Interrupt Id */
+    UC_DIO_INT_INPUT_GIOA6,
+    /*Interrupt Trigger*/
+    UC_DIO_INPUT_NEG_EDGE,
+    /*Interrupt Callback */
+    TAPAS_NULL,
+    /* Value */
+    TAPAS_DEFAULT,
+  },
+ {
+    /*DIO Id*/
+    UC_DIO_INPUT_GIO3,
+    /*Module Id*/
+    UC_DIO_MODULE_MIBSPI5,
+    /*Pin Id*/
+    UC_DIO_SPI_CS0,
+    /*Pointer to the module object*/
+    &UC_DIO_astrObj[UC_DIO_MODULE_MIBSPI5],
+    /*Pin DIrection*/
+    UC_DIO_DIR_X,
+    /*Pin Mode*/
+    UC_DIO_PUSH_PULL_MODE,
+    /*Pull functionality enable/disable*/
+    UC_DIO_PULL_FCN_ENABLE,
+    /*Pull mode if any */
+    UC_DIO_PULL_DOWN_MODE,
+    /*Interrupt Enable/Disable*/
+    TAPAS_FALSE,
+    /*Interrupt Priority*/
+    UC_DIO_INT_PRIORITY_LOW,
+    /*Input Pin Interrupt Id */
+    UC_DIO_INT_INPUT_NOT_USED,
+    /*Interrupt Trigger*/
+    UC_DIO_INPUT_TRIGGER_NA,
+    /*Interrupt Callback */
+    TAPAS_NULL,
+    /* Value */
+    TAPAS_DEFAULT,
+  },
+  {
+    /*DIO Id*/
+    UC_DIO_INPUT_GIO4,
+    /*Module Id*/
+    UC_DIO_MODULE_NHET1,
+    /*Pin Id*/
+    UC_DIO_PIN_15,
+    /*Pointer to the module object*/
+    &UC_DIO_astrObj[UC_DIO_MODULE_NHET1],
+    /*Pin DIrection*/
+    UC_DIO_DIR_X,
+    /*Pin Mode*/
+    UC_DIO_PUSH_PULL_MODE,
+    /*Pull functionality enable/disable*/
+    UC_DIO_PULL_FCN_ENABLE,
+    /*Pull mode if any */
+    UC_DIO_PULL_DOWN_MODE,
+    /*Interrupt Enable/Disable*/
+    TAPAS_FALSE,
+    /*Interrupt Priority*/
+    UC_DIO_INT_PRIORITY_LOW,
+    /*Input Pin Interrupt Id */
+    UC_DIO_INT_INPUT_NOT_USED,
+    /*Interrupt Trigger*/
+    UC_DIO_INPUT_TRIGGER_NA,
+    /*Interrupt Callback */
+    TAPAS_NULL,
+    /* Value */
+    TAPAS_DEFAULT,
+  },
+  {
+    /*DIO Id*/
+    UC_DIO_INPUT_GIO5,
+    /*Module Id*/
+    UC_DIO_MODULE_MIBSPI3,
+    /*Pin Id*/
+    UC_DIO_SPI_EN,
+    /*Pointer to the module object*/
+    &UC_DIO_astrObj[UC_DIO_MODULE_MIBSPI3],
+    /*Pin DIrection*/
+    UC_DIO_DIR_X,
+    /*Pin Mode*/
+    UC_DIO_PUSH_PULL_MODE,
+    /*Pull functionality enable/disable*/
+    UC_DIO_PULL_FCN_ENABLE,
+    /*Pull mode if any */
+    UC_DIO_PULL_DOWN_MODE,
+    /*Interrupt Enable/Disable*/
+    TAPAS_FALSE,
+    /*Interrupt Priority*/
+    UC_DIO_INT_PRIORITY_LOW,
+    /*Input Pin Interrupt Id */
+    UC_DIO_INT_INPUT_NOT_USED,
+    /*Interrupt Trigger*/
+    UC_DIO_INPUT_TRIGGER_NA,
+    /*Interrupt Callback */
+    TAPAS_NULL,
+    /* Value */
+    TAPAS_DEFAULT,
+  },
+  {
+    /*DIO Id*/
+    UC_DIO_INPUT_GIO6,
+    /*Module Id*/
+    UC_DIO_MODULE_MIBSPI1,
+    /*Pin Id*/
+    UC_DIO_SPI_SIMO,
+    /*Pointer to the module object*/
+    &UC_DIO_astrObj[UC_DIO_MODULE_MIBSPI1],
+    /*Pin DIrection*/
+    UC_DIO_DIR_X,
+    /*Pin Mode*/
+    UC_DIO_PUSH_PULL_MODE,
+    /*Pull functionality enable/disable*/
+    UC_DIO_PULL_FCN_ENABLE,
+    /*Pull mode if any */
+    UC_DIO_PULL_DOWN_MODE,
+    /*Interrupt Enable/Disable*/
+    TAPAS_FALSE,
+    /*Interrupt Priority*/
+    UC_DIO_INT_PRIORITY_LOW,
+    /*Input Pin Interrupt Id */
+    UC_DIO_INT_INPUT_NOT_USED,
+    /*Interrupt Trigger*/
+    UC_DIO_INPUT_TRIGGER_NA,
+    /*Interrupt Callback */
+    TAPAS_NULL,
+    /* Value */
+    TAPAS_DEFAULT,
+  },
+  {
+    /*DIO Id*/
+    UC_DIO_INPUT_GIO7,
+    /*Module Id*/
+    UC_DIO_MODULE_MIBSPI1,
+    /*Pin Id*/
+    UC_DIO_SPI_SOMI,
+    /*Pointer to the module object*/
+    &UC_DIO_astrObj[UC_DIO_MODULE_MIBSPI1],
+    /*Pin DIrection*/
+    UC_DIO_DIR_X,
+    /*Pin Mode*/
+    UC_DIO_PUSH_PULL_MODE,
+    /*Pull functionality enable/disable*/
+    UC_DIO_PULL_FCN_ENABLE,
+    /*Pull mode if any */
+    UC_DIO_PULL_DOWN_MODE,
+    /*Interrupt Enable/Disable*/
+    TAPAS_FALSE,
+    /*Interrupt Priority*/
+    UC_DIO_INT_PRIORITY_LOW,
+    /*Input Pin Interrupt Id */
+    UC_DIO_INT_INPUT_NOT_USED,
+    /*Interrupt Trigger*/
+    UC_DIO_INPUT_TRIGGER_NA,
+    /*Interrupt Callback */
+    TAPAS_NULL,
+    /* Value */
+    TAPAS_DEFAULT,
+  },
+  {
+    /*DIO Id*/
+    UC_DIO_INPUT_GIO8,
+    /*Module Id*/
+    UC_DIO_MODULE_MIBSPI1,
+    /*Pin Id*/
+    UC_DIO_SPI_CLK,
+    /*Pointer to the module object*/
+    &UC_DIO_astrObj[UC_DIO_MODULE_MIBSPI1],
+    /*Pin DIrection*/
+    UC_DIO_DIR_X,
+    /*Pin Mode*/
+    UC_DIO_PUSH_PULL_MODE,
+    /*Pull functionality enable/disable*/
+    UC_DIO_PULL_FCN_ENABLE,
+    /*Pull mode if any */
+    UC_DIO_PULL_DOWN_MODE,
+    /*Interrupt Enable/Disable*/
+    TAPAS_FALSE,
+    /*Interrupt Priority*/
+    UC_DIO_INT_PRIORITY_LOW,
+    /*Input Pin Interrupt Id */
+    UC_DIO_INT_INPUT_NOT_USED,
+    /*Interrupt Trigger*/
+    UC_DIO_INPUT_TRIGGER_NA,
+    /*Interrupt Callback */
+    TAPAS_NULL,
+    /* Value */
+    TAPAS_DEFAULT,
+  },
+  {
+    /*DIO Id*/
+    UC_DIO_INPUT_GIO9,
+    /*Module Id*/
+    UC_DIO_MODULE_MIBSPI1,
+    /*Pin Id*/
+    UC_DIO_SPI_EN,
+    /*Pointer to the module object*/
+    &UC_DIO_astrObj[UC_DIO_MODULE_MIBSPI1],
+    /*Pin DIrection*/
+    UC_DIO_DIR_X,
+    /*Pin Mode*/
+    UC_DIO_PUSH_PULL_MODE,
+    /*Pull functionality enable/disable*/
+    UC_DIO_PULL_FCN_ENABLE,
+    /*Pull mode if any */
+    UC_DIO_PULL_UP_MODE,
+    /*Interrupt Enable/Disable*/
+    TAPAS_FALSE,
+    /*Interrupt Priority*/
+    UC_DIO_INT_PRIORITY_LOW,
+    /*Input Pin Interrupt Id */
+    UC_DIO_INT_INPUT_NOT_USED,
+    /*Interrupt Trigger*/
+    UC_DIO_INPUT_TRIGGER_NA,
+    /*Interrupt Callback */
+    TAPAS_NULL,
+    /* Value */
+    TAPAS_DEFAULT,
+  },
+  {
+    /*DIO Id*/
+    UC_DIO_OUTPUT_GIO10,
+    /*Module Id*/
+    UC_DIO_MODULE_MIBSPI5,
+    /*Pin Id*/
+    UC_DIO_SPI_EN,
+    /*Pointer to the module object*/
+    &UC_DIO_astrObj[UC_DIO_MODULE_MIBSPI5],
+    /*Pin DIrection*/
+    UC_DIO_DIR_X,
+    /*Pin Mode*/
+    UC_DIO_PUSH_PULL_MODE,
+    /*Pull functionality enable/disable*/
+    UC_DIO_PULL_FCN_ENABLE,
+    /*Pull mode if any */
+    UC_DIO_PULL_UP_MODE,
+    /*Interrupt Enable/Disable*/
+    TAPAS_FALSE,
+    /*Interrupt Priority*/
+    UC_DIO_INT_PRIORITY_LOW,
+    /*Input Pin Interrupt Id */
+    UC_DIO_INT_INPUT_NOT_USED,
+    /*Interrupt Trigger*/
+    UC_DIO_INPUT_TRIGGER_NA,
+    /*Interrupt Callback */
+    TAPAS_NULL,
+    /* Value */
+    TAPAS_DEFAULT,
+  },
+  {
+    /*DIO Id*/
+    UC_DIO_OUTPUT_GIO11,
+    /*Module Id*/
+    UC_DIO_MODULE_MIBSPI1,
+    /*Pin Id*/
+    UC_DIO_SPI_CS0,
+    /*Pointer to the module object*/
+    &UC_DIO_astrObj[UC_DIO_MODULE_MIBSPI1],
+    /*Pin DIrection*/
+    UC_DIO_DIR_X,
+    /*Pin Mode*/
+    UC_DIO_PUSH_PULL_MODE,
+    /*Pull functionality enable/disable*/
+    UC_DIO_PULL_FCN_ENABLE,
+    /*Pull mode if any */
+    UC_DIO_PULL_DOWN_MODE,
+    /*Interrupt Enable/Disable*/
+    TAPAS_FALSE,
+    /*Interrupt Priority*/
+    UC_DIO_INT_PRIORITY_LOW,
+    /*Input Pin Interrupt Id */
+    UC_DIO_INT_INPUT_NOT_USED,
+    /*Interrupt Trigger*/
+    UC_DIO_INPUT_TRIGGER_NA,
+    /*Interrupt Callback */
+    TAPAS_NULL,
+    /* Value */
+    TAPAS_DEFAULT,
+  },
+  {
+    /*DIO Id*/
+    UC_DIO_OUTPUT_GIO12,
+    /*Module Id*/
+    UC_DIO_MODULE_NHET1,
+    /*Pin Id*/
+    UC_DIO_PIN_8,
+    /*Pointer to the module object*/
+    &UC_DIO_astrObj[UC_DIO_MODULE_NHET1],
+    /*Pin DIrection*/
+    UC_DIO_DIR_X,
+    /*Pin Mode*/
+    UC_DIO_PUSH_PULL_MODE,
+    /*Pull functionality enable/disable*/
+    UC_DIO_PULL_FCN_ENABLE,
+    /*Pull mode if any */
+    UC_DIO_PULL_DOWN_MODE,
+    /*Interrupt Enable/Disable*/
+    TAPAS_FALSE,
+    /*Interrupt Priority*/
+    UC_DIO_INT_PRIORITY_LOW,
+    /*Input Pin Interrupt Id */
+    UC_DIO_INT_INPUT_NOT_USED,
+    /*Interrupt Trigger*/
+    UC_DIO_INPUT_TRIGGER_NA,
+    /*Interrupt Callback */
+    TAPAS_NULL,
+    /* Value */
+    TAPAS_DEFAULT,
+  },
+  {
+    /*DIO Id*/
+    UC_DIO_OUTPUT_GIO13,
+    /*Module Id*/
+    UC_DIO_MODULE_NHET1,
+    /*Pin Id*/
+    UC_DIO_PIN_10,
+    /*Pointer to the module object*/
+    &UC_DIO_astrObj[UC_DIO_MODULE_NHET1],
+    /*Pin DIrection*/
+    UC_DIO_DIR_X,
+    /*Pin Mode*/
+    UC_DIO_PUSH_PULL_MODE,
+    /*Pull functionality enable/disable*/
+    UC_DIO_PULL_FCN_ENABLE,
+    /*Pull mode if any */
+    UC_DIO_PULL_DOWN_MODE,
+    /*Interrupt Enable/Disable*/
+    TAPAS_FALSE,
+    /*Interrupt Priority*/
+    UC_DIO_INT_PRIORITY_LOW,
+    /*Input Pin Interrupt Id */
+    UC_DIO_INT_INPUT_NOT_USED,
+    /*Interrupt Trigger*/
+    UC_DIO_INPUT_TRIGGER_NA,
+    /*Interrupt Callback */
+    TAPAS_NULL,
+    /* Value */
+    TAPAS_DEFAULT,
+  },
+  {
+    /*DIO Id*/
+    UC_DIO_OUTPUT_GIO14,
+    /*Module Id*/
+    UC_DIO_MODULE_NHET1,
+    /*Pin Id*/
+    UC_DIO_PIN_14,
+    /*Pointer to the module object*/
+    &UC_DIO_astrObj[UC_DIO_MODULE_NHET1],
+    /*Pin DIrection*/
+    UC_DIO_DIR_X,
+    /*Pin Mode*/
+    UC_DIO_PUSH_PULL_MODE,
+    /*Pull functionality enable/disable*/
+    UC_DIO_PULL_FCN_ENABLE,
+    /*Pull mode if any */
+    UC_DIO_PULL_DOWN_MODE,
+    /*Interrupt Enable/Disable*/
+    TAPAS_FALSE,
+    /*Interrupt Priority*/
+    UC_DIO_INT_PRIORITY_LOW,
+    /*Input Pin Interrupt Id */
+    UC_DIO_INT_INPUT_NOT_USED,
+    /*Interrupt Trigger*/
+    UC_DIO_INPUT_TRIGGER_NA,
+    /*Interrupt Callback */
+    TAPAS_NULL,
+    /* Value */
+    TAPAS_DEFAULT,
+  },
+  {
+    /*DIO Id*/
+    UC_DIO_OUTPUT_GIO15,
+    /*Module Id*/
+    UC_DIO_MODULE_NHET1,
+    /*Pin Id*/
+    UC_DIO_PIN_30,
+    /*Pointer to the module object*/
+    &UC_DIO_astrObj[UC_DIO_MODULE_NHET1],
+    /*Pin DIrection*/
+    UC_DIO_DIR_X,
+    /*Pin Mode*/
+    UC_DIO_PUSH_PULL_MODE,
+    /*Pull functionality enable/disable*/
+    UC_DIO_PULL_FCN_ENABLE,
+    /*Pull mode if any */
+    UC_DIO_PULL_DOWN_MODE,
+    /*Interrupt Enable/Disable*/
+    TAPAS_FALSE,
+    /*Interrupt Priority*/
+    UC_DIO_INT_PRIORITY_LOW,
+    /*Input Pin Interrupt Id */
+    UC_DIO_INT_INPUT_NOT_USED,
+    /*Interrupt Trigger*/
+    UC_DIO_INPUT_TRIGGER_NA,
+    /*Interrupt Callback */
+    TAPAS_NULL,
+    /* Value */
+    TAPAS_DEFAULT,
+  },
+  {
+    /*DIO Id*/
+    UC_DIO_OUTPUT_GIO16,
+    /*Module Id*/
+    UC_DIO_MODULE_MIBSPI1,
+    /*Pin Id*/
+    UC_DIO_SPI_CS1,
+    /*Pointer to the module object*/
+    &UC_DIO_astrObj[UC_DIO_MODULE_MIBSPI1],
+    /*Pin DIrection*/
+    UC_DIO_DIR_X,
+    /*Pin Mode*/
+    UC_DIO_PUSH_PULL_MODE,
+    /*Pull functionality enable/disable*/
+    UC_DIO_PULL_FCN_ENABLE,
+    /*Pull mode if any */
+    UC_DIO_PULL_DOWN_MODE,
+    /*Interrupt Enable/Disable*/
+    TAPAS_FALSE,
+    /*Interrupt Priority*/
+    UC_DIO_INT_PRIORITY_LOW,
+    /*Input Pin Interrupt Id */
+    UC_DIO_INT_INPUT_NOT_USED,
+    /*Interrupt Trigger*/
+    UC_DIO_INPUT_TRIGGER_NA,
+    /*Interrupt Callback */
+    TAPAS_NULL,
+    /* Value */
+    TAPAS_DEFAULT,
+  },
+  {
+    /*DIO Id*/
+    UC_DIO_OUTPUT_GIO17,
+    /*Module Id*/
+    UC_DIO_MODULE_NHET1,
+    /*Pin Id*/
+    UC_DIO_PIN_16,
+    /*Pointer to the module object*/
+    &UC_DIO_astrObj[UC_DIO_MODULE_NHET1],
+    /*Pin DIrection*/
+    UC_DIO_DIR_X,
+    /*Pin Mode*/
+    UC_DIO_PUSH_PULL_MODE,
+    /*Pull functionality enable/disable*/
+    UC_DIO_PULL_FCN_ENABLE,
+    /*Pull mode if any */
+    UC_DIO_PULL_DOWN_MODE,
+    /*Interrupt Enable/Disable*/
+    TAPAS_FALSE,
+    /*Interrupt Priority*/
+    UC_DIO_INT_PRIORITY_LOW,
+    /*Input Pin Interrupt Id */
+    UC_DIO_INT_INPUT_NOT_USED,
+    /*Interrupt Trigger*/
+    UC_DIO_INPUT_TRIGGER_NA,
+    /*Interrupt Callback */
+    TAPAS_NULL,
+    /* Value */
+    TAPAS_DEFAULT,
+  },
+  {
+    /*DIO Id*/
+    UC_DIO_OUTPUT_GIO18,
+    /*Module Id*/
+    UC_DIO_MODULE_GIOA,
+    /*Pin Id*/
+    UC_DIO_PIN_7,
+    /*Pointer to the module object*/
+    &UC_DIO_astrObj[UC_DIO_MODULE_GIOA],
+    /*Pin DIrection*/
+    UC_DIO_DIR_X,
+    /*Pin Mode*/
+    UC_DIO_PUSH_PULL_MODE,
+    /*Pull functionality enable/disable*/
+    UC_DIO_PULL_FCN_ENABLE,
+    /*Pull mode if any */
+    UC_DIO_PULL_DOWN_MODE,
+    /*Interrupt Enable/Disable*/
+    TAPAS_TRUE,
+    /*Interrupt Priority*/
+    UC_DIO_INT_PRIORITY_LOW,
+    /*Input Pin Interrupt Id */
+    UC_DIO_INT_INPUT_NOT_USED,
+    /*Interrupt Trigger*/
+    UC_DIO_INPUT_TRIGGER_NA,
+    /*Interrupt Callback */
+    TAPAS_NULL,
+    /* Value */
+    TAPAS_DEFAULT,
+  },
+  {
+    /*DIO Id*/
+    UC_DIO_OUTPUT_GIO19,
+    /*Module Id*/
+    UC_DIO_MODULE_NHET1,
+    /*Pin Id*/
+    UC_DIO_PIN_18,
+    /*Pointer to the module object*/
+    &UC_DIO_astrObj[UC_DIO_MODULE_NHET1],
+    /*Pin DIrection*/
+    UC_DIO_DIR_X,
+    /*Pin Mode*/
+    UC_DIO_PUSH_PULL_MODE,
+    /*Pull functionality enable/disable*/
+    UC_DIO_PULL_FCN_ENABLE,
+    /*Pull mode if any */
+    UC_DIO_PULL_DOWN_MODE,
+    /*Interrupt Enable/Disable*/
+    TAPAS_FALSE,
+    /*Interrupt Priority*/
+    UC_DIO_INT_PRIORITY_LOW,
+    /*Input Pin Interrupt Id */
+    UC_DIO_INT_INPUT_NOT_USED,
+    /*Interrupt Trigger*/
+    UC_DIO_INPUT_TRIGGER_NA,
+    /*Interrupt Callback */
+    TAPAS_NULL,
+    /* Value */
+    TAPAS_DEFAULT,
+  },
+  {
+    /*DIO Id*/
+    UC_DIO_OUTPUT_GIOHB,
+    /*Module Id*/
+    UC_DIO_MODULE_NHET1,
+    /*Pin Id*/
+    UC_DIO_PIN_20,
+    /*Pointer to the module object*/
+    &UC_DIO_astrObj[UC_DIO_MODULE_NHET1],
+    /*Pin DIrection*/
+    UC_DIO_DIR_X,
+    /*Pin Mode*/
+    UC_DIO_PUSH_PULL_MODE,
+    /*Pull functionality enable/disable*/
+    UC_DIO_PULL_FCN_ENABLE,
+    /*Pull mode if any */
+    UC_DIO_PULL_DOWN_MODE,
+    /*Interrupt Enable/Disable*/
+    TAPAS_FALSE,
+    /*Interrupt Priority*/
+    UC_DIO_INT_PRIORITY_LOW,
+    /*Input Pin Interrupt Id */
+    UC_DIO_INT_INPUT_NOT_USED,
+    /*Interrupt Trigger*/
+    UC_DIO_INPUT_TRIGGER_NA,
+    /*Interrupt Callback */
+    TAPAS_NULL,
+    /* Value */
+    TAPAS_DEFAULT,
+  },

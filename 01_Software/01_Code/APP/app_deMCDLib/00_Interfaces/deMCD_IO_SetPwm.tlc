@@ -1,0 +1,18 @@
+%implements "deMCD_IO_SetPwm" "C"
+
+%% Function: Outputs ==========================================
+%%
+%function Outputs(block, system) Output
+  /* %<Type> Block: %<Name> */
+  %%
+  /* Insert Comment Here */
+  %assign rollVars = ["U", "Y"]
+  %roll idx = RollRegions, lcv = RollThreshold, block, "Roller", rollVars
+  
+  /*deMCD: User Defined Code Starts Here */
+
+  RTE_Service_IO_eSetPwm((uint8_t)(%<LibBlockInputSignal(0, "", lcv, idx)>-1), (uint32_t)%<LibBlockInputSignal(1, "", lcv, idx)>, (uint8_t)%<LibBlockInputSignal(2, "", lcv, idx)>);
+
+  /*deMCD: User Defined Code Ends Here */
+  %endroll
+%endfunction

@@ -1,0 +1,18 @@
+%implements "TAPAS_MEM_SaveSignal" "C"
+
+%% Function: Outputs ==========================================
+%%
+%function Outputs(block, system) Output
+  /* %<Type> Block: %<Name> */
+  %%
+  /* Insert Comment Here */
+  %assign rollVars = ["U", "Y"]
+  %roll idx = RollRegions, lcv = RollThreshold, block, "Roller", rollVars
+  
+  /*TAPAS: User Defined Code Starts Here */
+
+  RTE_Service_MEM_eWriteSignalValue((uint8_T)(%<LibBlockInputSignal(0, "", lcv, idx)>+2), %<LibBlockInputSignal(1, "", lcv, idx)>, (uint32_T)%<LibBlockInputSignal(1, "", lcv, idx)>);
+
+  /*TAPAS: User Defined Code Ends Here */
+  %endroll
+%endfunction

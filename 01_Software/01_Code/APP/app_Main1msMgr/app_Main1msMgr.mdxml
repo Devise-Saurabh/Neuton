@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<swc name="app_Main1msMgr" number="39">
+   <entry entryId="1" entryName="app_Main1msMgr_fcn" entryTask="1ms"/>
+   <signal id="1" name="DTC_Test5FL2_Monitor" type="float"/>
+   <signal id="2" name="DTC_Test5FL1_Monitor" type="float"/>
+   <signal id="3" name="DTC_Test5War_Monitor" type="float"/>
+   <signal id="4" name="DTC_Test4FL2_Monitor" type="float"/>
+   <signal id="5" name="DTC_Test4FL1_Monitor" type="float"/>
+   <signal id="6" name="DTC_Test4War_Monitor" type="float"/>
+   <signal id="7" name="DTC_Test3FL2_Monitor" type="float"/>
+   <signal id="8" name="DTC_Test3FL1_Monitor" type="float"/>
+   <signal id="9" name="DTC_Test3War_Monitor" type="float"/>
+   <signal id="10" name="DTC_Test2FL2_Monitor" type="float"/>
+   <signal id="11" name="DTC_Test2FL1_Monitor" type="float"/>
+   <signal id="12" name="DTC_Test2War_Monitor" type="float"/>
+   <signal id="13" name="DTC_Test1FL2_Monitor" type="float"/>
+   <signal id="14" name="DTC_Test1FL1_Monitor" type="float"/>
+   <signal id="15" name="DTC_Test1War_Monitor" type="float"/>
+   <signal id="16" name="DTC_Test5FL2" type="float"/>
+   <signal id="17" name="DTC_Test5FL1" type="float"/>
+   <signal id="18" name="DTC_Test5War" type="float"/>
+   <signal id="19" name="DTC_Test4FL2" type="float"/>
+   <signal id="20" name="DTC_Test4FL1" type="float"/>
+   <signal id="21" name="DTC_Test4War" type="float"/>
+   <signal id="22" name="DTC_Test3FL2" type="float"/>
+   <signal id="23" name="DTC_Test3FL1" type="float"/>
+   <signal id="24" name="DTC_Test3War" type="float"/>
+   <signal id="25" name="DTC_Test2FL2" type="float"/>
+   <signal id="26" name="DTC_Test2FL1" type="float"/>
+   <signal id="27" name="DTC_Test2War" type="float"/>
+   <signal id="28" name="DTC_Test1FL2" type="float"/>
+   <signal id="29" name="DTC_Test1FL1" type="float"/>
+   <signal id="30" name="DTC_Test1War" type="float"/>
+   <signal id="31" name="DTC_BMS_FAULT" type="float"/>
+   <signal id="32" name="FLT_System_Monitor" type="float"/>
+   <signal id="33" name="DTC_BMS_Monitor" type="float"/>
+   <signal id="34" name="Test_1ms_Manual" type="float"/>
+   <signal id="35" name="Test_1ms_Monitor" type="float"/>
+   <signal id="36" name="Test_1ms" type="float"/>
+   <signal id="37" name="FLT_SystemErrorSeverity" type="float"/>
+   <signal id="38" name="APP_1MS_OUT1" type="float"/>
+   <signal id="39" name="APP_1MS_IN1" type="float"/>
+</swc>

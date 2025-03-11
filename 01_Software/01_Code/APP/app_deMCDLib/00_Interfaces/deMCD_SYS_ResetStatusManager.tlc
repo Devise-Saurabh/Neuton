@@ -1,0 +1,26 @@
+%implements "deMCD_SYS_ResetStatusManager" "C"
+
+%% Function: Outputs ==========================================
+%%
+%function Outputs(block, system) Output
+  /* %<Type> Block: %<Name> */
+  %%
+  /* Insert Comment Here */
+  %assign rollVars = ["U", "Y"]
+  %roll idx = RollRegions, lcv = RollThreshold, block, "Roller", rollVars
+  
+  /*deMCD: User Defined Code Starts Here */
+
+uint8_t u8IsWatchdog;
+
+RTE_Service_SYS_vdGetResetStatus(&u8IsWatchdog);
+%<LibBlockOutputSignal(0, "", lcv, idx)> = (float)u8IsWatchdog;
+
+if(%<LibBlockInputSignal(0, "", lcv, idx)> == 1)
+{
+    RTE_Service_SYS_vdClearResetStatus(1);
+}
+
+  /*deMCD: User Defined Code Ends Here */
+  %endroll
+%endfunction

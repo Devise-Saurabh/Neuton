@@ -1,0 +1,24 @@
+%implements "deMCD_IO_ReadPwm" "C"
+
+%% Function: Outputs ==========================================
+%%
+%function Outputs(block, system) Output
+  /* %<Type> Block: %<Name> */
+  %%
+  /* Insert Comment Here */
+  %assign rollVars = ["U", "Y"]
+  %roll idx = RollRegions, lcv = RollThreshold, block, "Roller", rollVars
+  
+  /*deMCD: User Defined Code Starts Here */
+
+  uint32_t u32FreqHz;
+  uint8_t u8DutyCycle;
+
+  RTE_Service_IO_eReadPwm((uint8_t)(%<LibBlockInputSignal(0, "", lcv, idx)>-1), &u32FreqHz, &u8DutyCycle);
+
+  %<LibBlockOutputSignal(0, "", lcv, idx)> = u32FreqHz;
+  %<LibBlockOutputSignal(1, "", lcv, idx)> = u8DutyCycle;
+
+  /*deMCD: User Defined Code Ends Here */
+  %endroll
+%endfunction

@@ -1,0 +1,25 @@
+%implements "TAPAS_IO_WriteDigitalOutput" "C"
+
+%% Function: Outputs ==========================================
+%%
+%function Outputs(block, system) Output
+  /* %<Type> Block: %<Name> */
+  %%
+  /* Insert Comment Here */
+  %assign rollVars = ["U", "Y"]
+  %roll idx = RollRegions, lcv = RollThreshold, block, "Roller", rollVars
+  
+  /*TAPAS: User Defined Code Starts Here */
+
+  if((uint8_T)%<LibBlockInputSignal(1, "", lcv, idx)> != (uint8_T)0)
+  {
+  	RTE_Service_IO_eOutputControl((uint8_T)(%<LibBlockInputSignal(0, "", lcv, idx)>-1) , ECU_IO_OUT_COMMAND_ON);
+  }
+  else
+  {
+  	RTE_Service_IO_eOutputControl((uint8_T)(%<LibBlockInputSignal(0, "", lcv, idx)>-1) , ECU_IO_OUT_COMMAND_OFF);
+  }
+
+  /*TAPAS: User Defined Code Ends Here */
+  %endroll
+%endfunction

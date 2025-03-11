@@ -1,0 +1,408 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: CAN_DIAGNOSTICS CAN_SECONDARY CAN_MAIN
+VAL_TABLE_ POS_BackupStatus_t 5 "Saved" 4 "Save Fail" 3 "No backup to restore" 2 "Restored" 1 "Restoring Failed" 0 "Unknown" ;
+VAL_TABLE_ POS_NaviStatus_t 0 "Unknown" 1 "NF" 2 "DR" 3 "G2" 4 "G3" 5 "D2" 6 "D3" 7 "RK" 8 "TT" ;
+VAL_TABLE_ POS_MapMatchingStatus_t 0 "none" 1 "valid but not used" 2 "valid and used 1" 3 "valid and used 2" ;
+VAL_TABLE_ POS_Control_State_t 6 "Resetting" 5 "Map Matching" 4 "Booting" 3 "Shut Down" 2 "Shutting Down" 1 "Operation" 0 "Initializing" ;
+VAL_TABLE_ POS_Control_t 4 "Reset" 3 "Map Match" 2 "Shutdown" 1 "Boot" 0 "None" ;
+VAL_TABLE_ POS_IMU_TimeStatus_t 3 "Time tag provided with data" 2 "Input event used to tag" 1 "Reception first byte used to tag" 0 "No Data" ;
+VAL_TABLE_ POS_IMU_CalibStatus_t 3 "Calibrated" 2 "Calibrated" 1 "Calibrating" 0 "Not Calibrated" ;
+VAL_TABLE_ POS_IMU_Fusion_t 3 "Fusion Disabled" 2 "Fusion Suspended" 1 "Fusion Active" 0 "Initializing" ;
+VAL_TABLE_ POS_IMU_Status_t 2 "Initialized" 1 "Initializing" 0 "Off" ;
+VAL_TABLE_ POS_Status_t 1 "OK" 0 "Not OK" ;
+VAL_TABLE_ POS_flag_t 1 "True" 0 "False" ;
+VAL_TABLE_ POS_Connection_t 1 "Connected" 0 "Not Connected" ;
+VAL_TABLE_ POS_ChecksumStatus_t 1 "OK" 0 "Not OK" ;
+VAL_TABLE_ POS_DR_t 2 "DR used" 1 "DR not used" 0 "Unknown" ;
+VAL_TABLE_ POS_Direction_t 4 "West" 3 "East" 2 "South" 1 "North" 0 "Unknown" ;
+VAL_TABLE_ MCU_VCU_K2ConnectionFail_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ MCU_VCU_DCConnectionFail_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ MCU_VCU_ACConnectionFail_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ MCU_VCU_ShutdownStatus_t 1 "Shutdown" 0 "Running" ;
+VAL_TABLE_ MCU_VCU_CapacitorDischargeSts_t 3 "DischargeComplete" 2 "Discharging" 1 "NotStartDischarging" 0 "Reserved" ;
+VAL_TABLE_ VCU_MCU_GearStatus_t 3 "GearInvalid" 2 "RGear" 1 "DGear" 0 "NGear" ;
+VAL_TABLE_ VCU_MCU_FootbrakeSignal_t 1 "FootbrakeSignalOn" 0 "FootbrakeSignalOff" ;
+VAL_TABLE_ VCU_MCU_HandbrakeSignal_t 1 "HandbrakePulledup" 0 "HandbrakePutdown" ;
+VAL_TABLE_ VCU_MCU_EStopStatus_t 1 "EstopPressed" 0 "EstopNotPressed" ;
+VAL_TABLE_ VCU_MCU_BMSToDisconnectK8_t 1 "AboutToDisconnectK8" 0 "K8Connected" ;
+VAL_TABLE_ DCDC_VCU_ShutdoownStatus_t 1 "Shutdown" 0 "Running" ;
+VAL_TABLE_ VCU_DCDC_ShutDownInstruction_t 1 "DoShutdown" 0 "DoNotShutdown" ;
+VAL_TABLE_ BMS_AC_ChargeHeatupFlag_t 1 "HeatingMode" 0 "ChargingMode" ;
+VAL_TABLE_ BMS_AC_ChargeCompleteFlag_t 1 "Completed" 0 "NotComplete" ;
+VAL_TABLE_ BMS_VCU_RequestToConnectK8_t 1 "Request" 0 "NoRequest" ;
+VAL_TABLE_ VCU_BMS_AllowToConnectK8_t 1 "Allow" 0 "NotAllow" ;
+VAL_TABLE_ VCU_BMS_ShutDownInstruction_t 1 "DoShutdown" 0 "DoNotShutdown" ;
+VAL_TABLE_ BMS_VCU_ShutdownStatus_t 1 "Stopped" 0 "Running" ;
+VAL_TABLE_ BMS_VCU_DcChargeStatus_t 3 "ChargeCompleted" 2 "Charging" 1 "ChargerConnected" 0 "NoCharging" ;
+VAL_TABLE_ BMS_VCU_AcChargeStatus_t 3 "ChargeCompleted" 2 "Charging" 1 "ChargerConnected" 0 "NoCharging" ;
+VAL_TABLE_ VCU_BMS_DcChargerEnable_t 1 "Enable" 0 "Disable" ;
+VAL_TABLE_ VCU_DASH_ChangeGearFail_t 1 "Failure" 0 "No_Fault" ;
+VAL_TABLE_ MCU_VCU_DischargeFailure 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ MCU_VCU_MotorHWLoseSignal_P_t 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ MCU_VCU_MotorResolve_P_t 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ MCU_VCU_MotorLackphase_P_t 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ MCU_VCU_VehicleFaultCircuitRes 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ MCU_VCU_MotorCANComuiFailure_P_t 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ MCU_VCU_MotorOverSpeed_P_t 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ MCU_VCU_MotoDriverBoardOverT_P_t 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ MCU_VCU_MotorBlocking_P_t 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ MCU_VCU_MotorOverload_P_t 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ MCU_VCU_MotorOverTorque_P_t 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ MCU_VCU_MotorBusLineOverV_P_t 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ MCU_VCU_MotorBusLineUnderV_P_t 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ MCU_VCU_MotorDQOverC_P_t 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ MCU_VCU_MotorCVOverV_P_t 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ MCU_VCU_MotorCVReverseConn_P_t 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ MCU_VCU_MotorCVUnderV_P_t 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ MCU_VCU_MotorPhaseOverC_P_t 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ MCU_VCU_MotorBusLineOverC_P_t 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ MCU_VCU_MotorOverT_P_t 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ MCU_VCU_MotorIGBTOverT_P_t 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ MCU_VCU_MotorBridgeUpDown_P_t 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ MCU_VCU_MotoDrivePowerUnderV_P_t 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ MCU_VCU_MotorIGBT_P_t 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ MCU_VCU_ErrorStatus_t 3 "Alarm" 2 "Common_Fault_speed_limited" 1 "Serious_Fault_immediately_stop" 0 "No_Fault" ;
+VAL_TABLE_ MCU_VCU_MCULowVolSelftest_t 1 "Done" 0 "Not_done" ;
+VAL_TABLE_ MCU_VCU_AllowedCloseK2_t 1 "Allowed" 0 "Not_Allowed" ;
+VAL_TABLE_ MCU_VCU_Idle_t 1 "Idle" 0 "Other" ;
+VAL_TABLE_ MCU_VCU_RotationDirection_t 1 "Backward_Rotation" 0 "Forward_Rotation" ;
+VAL_TABLE_ MCU_VCU_ModeControl_t 1 "limited_power_mode" 0 "torque" ;
+VAL_TABLE_ MCU_VCU_PrechargeStatus_t 1 "Done" 0 "Not_done" ;
+VAL_TABLE_ VCU_MUC_SlopeStopRequest_t 1 "request" 0 "No_request" ;
+VAL_TABLE_ VCU_MUC_K2CloseRequestVali_t 1 "valid" 0 "Invalid" ;
+VAL_TABLE_ VCU_MUC_K2CloseRequest_t 1 "Close_request" 0 "No_close_request" ;
+VAL_TABLE_ VCU_MUC_K2Status_t 1 "Close" 0 "Open" ;
+VAL_TABLE_ VCU_MUC_RelayK1Status_t 1 "Close" 0 "Open" ;
+VAL_TABLE_ VCU_MUC_CapacityDischarge_t 1 "Discharge" 0 "Not_Discharge" ;
+VAL_TABLE_ VCU_MUC_CarStatus_t 4 "Allowed_to_drive" 3 "Charging" 2 "ON" 1 "ACC" 0 "OFF" ;
+VAL_TABLE_ VCU_MUC_Enable_t 1 "ON" 0 "OFF" ;
+VAL_TABLE_ VCU_MUC_InverterCommand_t 3 "idle" 2 "backward_rotation" 1 "forward_rotation" 0 "Stop" ;
+VAL_TABLE_ VCU_MUC_DrivenCommand_t 2 "regenerating" 1 "driven" 0 "invalid" ;
+VAL_TABLE_ BMS_DASH_InsulationFault_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ BMS_DASH_MachineNonRespAlarm_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ BMS_DASH_SOCLowAlarm_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ BMS_DASH_VolUnderLimited_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ BMS_DASH_VolOverLimited_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ BMS_DASH_AveVolOverLimited_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ BMS_DASH_TotalCOverLimited_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ BMS_DASH_TurnOfNegativ_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ BMS_DASH_TotalVolOverLimited_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ BMS_DASH_TempOverLimited_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ BMS_DASH_BatteryBalanceFault_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ BMS_DASH_InsulationFaultLevel_t 3 "Alarm" 2 "Common_Fault_speed_limited" 1 "Serious_Fault_immediately_stop" 0 "No_Fault" ;
+VAL_TABLE_ BMS_DASH_BatteryFailureLevel_t 3 "Alarm" 2 "Common_Fault_speed_limited" 1 "Serious_Fault_immediately_stop" 0 "No_Fault" ;
+VAL_TABLE_ BMS_VCU_BatBalanceStatus_t 1 "active" 0 "inactive" ;
+VAL_TABLE_ BMS_VCU_ChargerCardReaderCommF_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ BMS_VCU_ChargerElecMeterCommF_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ BMS_VCU_BatType_t 1 "San_Yan_Bat" 0 "lithium_iron_phosphate" ;
+VAL_TABLE_ BMS_VCU_HighVRelayStatus_K8_t 3 "invalid" 2 "invalid" 1 "Close_K8" 0 "Disconnect_K8" ;
+VAL_TABLE_ BMS_VCU_InsulationFault_t 3 "Alarm" 2 "Common_Fault_speed_limited" 1 "Serious_Fault_immediately_stop" 0 "No_Fault" ;
+VAL_TABLE_ BMS_VCU_BatFailure_t 3 "Alarm" 2 "Common_Fault_speed_limited" 1 "Serious_Fault_immediately_stop" 0 "No_Fault" ;
+VAL_TABLE_ BMS_VCU_AllowCharge_t 1 "Allowed_charge" 0 "Not_allowed" ;
+VAL_TABLE_ BMS_VCU_BatStatus_t 2 "Charge" 1 "Discharge" 0 "Off" ;
+VAL_TABLE_ AC_DASH_FaultLevel_t 3 "Alarm" 2 "Common_Fault_speed_limited" 1 "Serious_Fault_immediately_stop" 0 "No_Fault" ;
+VAL_TABLE_ AC_DASH_CommuniStatus_t 1 "Timeout_or_Receive_abnor_signals" 0 "Normal" ;
+VAL_TABLE_ AC_DASH_BatStatus_t 1 "Bat_abnor_Vol_cannot_start" 0 "Normal" ;
+VAL_TABLE_ AC_DASH_InputVol_t 1 "Err_inpuVol_charger_cannot_start" 0 "Normal_220V" ;
+VAL_TABLE_ AC_DASH_ChargerTemp_t 1 "Charger_overTemp_Prot" 0 "Normal" ;
+VAL_TABLE_ AC_DASH_HWFailure_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ BMS_AC_Enable_t 1 "Charger_can_charge" 0 "Bat_Prot_turn_off_charger" ;
+VAL_TABLE_ AC_BMS_FaultLevel_t 3 "Alarm" 2 "Common_Fault_speed_limited" 1 "Serious_Fault_immediately_stop" 0 "No_Fault" ;
+VAL_TABLE_ AC_BMS_CommuniStatus_t 1 "Timeout_or_Received_abnor_signal" 0 "Normal" ;
+VAL_TABLE_ AC_BMS_BatStatus_t 1 "Bat_vol_abnormal_cannot_start" 0 "Normal" ;
+VAL_TABLE_ AC_BMS_InputVol_t 1 "Err_InputVol_Charger_stop" 0 "Normal_220V" ;
+VAL_TABLE_ AC_BMS_ChargerTemp_t 1 "Charger_OverTemp_Prot" 0 "Normal" ;
+VAL_TABLE_ AC_BMS_HWFailure_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ VCU_BMS_SlowChargeStatus_t 1 "Connected" 0 "Not_Connected" ;
+VAL_TABLE_ VCU_BMS_FastChargeStatus_t 1 "Connected" 0 "Not_Connected" ;
+VAL_TABLE_ VCU_DVD_Fail2Run_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_InterlockFault_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_DCDCWorkInstrucLoss_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_TempSensorAlarm_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_LowSideCSensorFault_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_Fail2Stop_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_LowVolLower_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_Temp2HGIH_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_OutputSC_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_LowVol2Low_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_HighVolLower_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_HighVol2Hgih_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_OverCurrentFault_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_OverVolFault_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_OverheatingFault_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_UnderVolFault_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_FailureTestFails_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_CANCommuniBreakdown_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_AbnormalPosition_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_SupplyVolAbnormal_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_SelfTestFailure_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_IPMprot_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_Phase_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_Overload_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_Overheat_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_Overcurrent_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_EEROMFailureReadWrite_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_BusOverV_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_InputUnderV_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_CommuniStatus_t 1 "Abnormal" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_StartState_t 1 "Abnormal_not_allowed_to_Start" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_InputVol_t 1 "Err_Input_Vol_charger_stop" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_ChargerTemp_t 1 "charger_over_temp_protection" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_HWFailure_t 1 "HW_Fault" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_InsulationFault_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_LowerMacUnrespAlarm_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_CapacityLowAlarm_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_SingleMinVolGauge_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_SingleMaxVolGauge_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_AveVolGauge_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_TotalCurrentLimit_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_OffMainNegative_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_TotalVolGauge_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_SingleHighestTempGague_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_CellBalancingFault_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_DischargeFailure_t 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_MotorHWLoseSignal_P_t 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_MotorResolve_P_t 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_MotorLackphase_P_t 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_VehicleFaultCircuitRes_t 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_MotorCANComuiFailure_P_t 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_MotorOverSpeed_P_t 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_MotoDriverBoardOverT_P_t 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_MotorBlocking_P_t 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_MotorOverload_P_t 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_MotorOverTorque_P_t 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_MotorBusLineOverV_P_t 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_MotorBusLineUnderV_P_t 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_MotorDQOverC_P_t 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_MotorCVOverV_P_t 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_MotorCVReverseConn_P_t 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_MotorCVUnderV_P_t 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_MotorPhaseOverC_P_t 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_MotorBusLineOverC_P_t 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_MotorOverT_P_t 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_MotorIGBTOverT_P_t 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_MotorBridgeUpDown_P_t 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_MotoDrivePowerUnderV_P_t 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_MotorIGBT_P_t 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ VCU_PS_Enable_t 1 "Enable" 0 "Stop" ;
+VAL_TABLE_ PS_VCU_IPMProt_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ PS_VCU_LackPhase_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ PS_VCU_OverLoad_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ PS_VCU_OverT_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ PS_VCU_OverCurrent_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ PS_VCU_EEROMFault_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ PS_VCU_BusOverV_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ PS_VCU_InputUnderV_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ PS_VCU_CanComuniFault_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ PS_VCU_PositionAbnormal_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ PS_VCU_PowerSupplyVErr_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ PS_VCU_SelfTestFault_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ PS_VCU_FaultLevel_t 3 "Alarm" 2 "Common_Fault_speed_limited" 1 "Serious_Fault_immediately_stop" 0 "No_Fault" ;
+VAL_TABLE_ PS_VCU_OperationStatus_t 2 "fault" 1 "run" 0 "stop" ;
+VAL_TABLE_ AirCon_VCU_FaultReason_t 4 "Overcurrent" 3 "Overvoltage" 2 "High_Temperature" 1 "Undervoltage" 0 "Self_check_fail" ;
+VAL_TABLE_ AirCon_VCU_AirConOffRequest_t 1 "Please_turn_off" 0 "no_need_to_turn_off" ;
+VAL_TABLE_ AirCon_VCU_FaultLevel_t 3 "Alarm" 2 "Common_Fault_speed_limited" 1 "Serious_Fault_immediately_stop" 0 "No_Fault" ;
+VAL_TABLE_ AirCon_VCU_State_t 3 "Error" 2 "PowerUp" 1 "Enable" 0 "Ready" ;
+VAL_TABLE_ VCU_AirCon_GearPosition_t 3 "N" 2 "R" 1 "D" 0 "Invalid" ;
+VAL_TABLE_ VCU_AirCon_FrontFanPosition_t 3 "Third" 2 "Second" 1 "First" 0 "Invalid" ;
+VAL_TABLE_ VCU_AirCon_Enable_t 1 "start" 0 "stop" ;
+VAL_TABLE_ VCU_AirCon_CommandValidity_t 1 "Valid" 0 "Invalid" ;
+VAL_TABLE_ DCDC_VCU_OperationFail_t 1 "Error" 0 "Normal" ;
+VAL_TABLE_ DCDC_VCU_InterlockFault_t 1 "Error" 0 "Normal" ;
+VAL_TABLE_ DCDC_VCU_WorkInstructLost_t 1 "Error" 0 "Normal" ;
+VAL_TABLE_ DCDC_VCU_TempSensorAlarm_t 1 "Error" 0 "Normal" ;
+VAL_TABLE_ DCDC_VCU_LVCSensorFault_t 1 "Error" 0 "Normal" ;
+VAL_TABLE_ DCDC_VCU_ShutdownFail_t 1 "Error" 0 "Normal" ;
+VAL_TABLE_ DCDC_VCU_LVUnderV_t 1 "Error" 0 "Normal" ;
+VAL_TABLE_ DCDC_VCU_OverTemp_t 1 "Error" 0 "Normal" ;
+VAL_TABLE_ DCDC_VCU_OutputShortCircuit_t 1 "Error" 0 "Normal" ;
+VAL_TABLE_ DCDC_VCU_LVOverV_t 1 "Error" 0 "LVOverV" ;
+VAL_TABLE_ DCDC_VCU_HVUnderV_t 1 "Error" 0 "Normal" ;
+VAL_TABLE_ DCDC_VCU_HVOverV_t 1 "Error" 0 "Normal" ;
+VAL_TABLE_ DCDC_VCU_WaterCoolingRequest_t 1 "Open_water_cooling_system" 0 "Turn_off_the_cooling" ;
+VAL_TABLE_ DCDC_VCU_FaultLevel_t 3 "Alarm" 2 "Common_Fault_speed_limited" 1 "Serious_Fault_immediately_stop" 0 "No_Fault" ;
+VAL_TABLE_ DCDC_VCU_Status_t 6 "Protection_shutdown" 5 "Normal_shutdown" 4 "Running" 3 "Start" 2 "Standby" 1 "Self_test" 0 "Reserved" ;
+VAL_TABLE_ VCU_DCDC_DCDCProtConfrim_t 3 "Reserved" 2 "Reserved" 1 "Protection_Confrimed" 0 "Reserved" ;
+VAL_TABLE_ VCU_DCDC_DCDCEnable_t 3 "Reserved" 2 "Stop" 1 "Start" 0 "Reserved" ;
+VAL_TABLE_ VCU_DVD_SOCAlarmFailure_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_DCDCDropped_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_ACControllerDropped_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_PowerSteeringDropped_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_ChargerDropped_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_SevereLowBatteryV_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_PumpFailure_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_SOC2Low_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_SOCLow_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_BMSDropped_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_MCUDropped_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_BatteryV2Low_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_VaccumAlarm_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_MCUOverT_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_PowerBatteryV2Low_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_BrakeOC_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_BrakeShort2Ground_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_BrakeShort2Power_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_BrakePerfAlarm_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_AccelOC_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_AccelShort2Ground_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_AccelShort2Power_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_AccelPerfAlarm_t 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ VCU_DVD_ACAlarmLevel_t 3 "Level3" 2 "Level2" 1 "Level1" 0 "No_Fault" ;
+VAL_TABLE_ VCU_DVD_SteeringPumpAlarmL_t 3 "Level3" 2 "Level2" 1 "Level1" 0 "No_Fault" ;
+VAL_TABLE_ VCU_DVD_ChargerAlarmLevel_t 3 "Level3" 2 "Level2" 1 "Level1" 0 "No_Fault" ;
+VAL_TABLE_ VCU_DVD_DCDCAlarmLevel_t 3 "Level3" 2 "Level2" 1 "Level1" 0 "No_Fault" ;
+VAL_TABLE_ VCU_DVD_VCUFaultLevel_t 3 "Alarm" 2 "Common_Fault_speed_limited" 1 "Serious_Fault_immediately_stop" 0 "No_Fault" ;
+VAL_TABLE_ VCU_DVD_BMSFaultLevel_t 3 "Alarm" 2 "Common_Fault_speed_limited" 1 "Serious_Fault_immediately_stop" 0 "No_Fault" ;
+VAL_TABLE_ VCU_DVD_MotorAlarmLevel_t 3 "Alarm" 2 "Common_Fault_speed_limited" 1 "Serious_Fault_immediately_stop" 0 "No_Fault" ;
+VAL_TABLE_ VCU_DVD_VehicleFaultLevel_t 3 "Alarm" 2 "Common_Fault_speed_limited" 1 "Serious_Fault_immediately_stop" 0 "No_Fault" ;
+VAL_TABLE_ VCU_DASH_MotorHWLoseSignal_P_t 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ VCU_DASH_MotorResolve_P_t 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ VCU_DASH_MotorLackphase_P_t 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ VCU_DASH_MotorCounterEMF_P_t 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ VCU_DASH_MotoCANComuiFail_P_t 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ VCU_DASH_MotorOverSpeed_P_t 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ VCU_DASH_MotoDrivBoardOverT_P_t 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ VCU_DASH_MotorBlocking_P_t 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ VCU_DASH_MotorOverload_P_t 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ VCU_DASH_MotorOverTorque_P_t 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ VCU_DASH_MotorBusLineOverV_P_t 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ VCU_DASH_MotorBusLineUnderV_P_t 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ VCU_DASH_MotorDQOverC_P_t 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ VCU_DASH_MotorCVOverV_P_t 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ VCU_DASH_MotorCVReverseConn_P_t 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ VCU_DASH_MotorCVUnderV_P_t 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ VCU_DASH_MotorPhaseOverC_P_t 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ VCU_DASH_MotorBusLineOverC_P_t 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ VCU_DASH_MotorOverT_P_t 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ VCU_DASH_MotorIGBTOverT_P_t 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ VCU_DASH_MotorBridgeUpDown_P_t 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ VCU_DASH_MotorDrivePUnderV_P_t 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ VCU_DASH_MotorIGBT_P_t 1 "Protection" 0 "Normal" ;
+VAL_TABLE_ VCU_DASH_BatteryStatus_t 1 "Undervoltage" 0 "No_undervoltage" ;
+VAL_TABLE_ VCU_DASH_VacuumPumpFailure_t 1 "Fault" 0 "No_Fault" ;
+VAL_TABLE_ VCU_DASH_FanFailure_t 3 "All_Fault" 2 "High_Speed_Fault" 1 "Low_speed_fault" 0 "No_Fault" ;
+VAL_TABLE_ VCU_DASH_PumpFailure_t 1 "Fault" 0 "No_Fault" ;
+VAL_TABLE_ VCU_DASH_VehicleController_t 3 "Alarm" 2 "Common_Fault_speed_limited" 1 "Serious_Fault_immediately_stop" 0 "No_Fault" ;
+VAL_TABLE_ VCU_DASH_BetterySysFailure_t 3 "Alarm" 2 "Common_Fault_speed_limited" 1 "Serious_Fault_immediately_stop" 0 "No_Fault" ;
+VAL_TABLE_ VCU_DASH_MotorSysFailure_t 3 "Alarm" 2 "Common_Fault_speed_limited" 1 "Serious_Fault_immediately_stop" 0 "No_Fault" ;
+VAL_TABLE_ VCU_DASH_VehicleMode_t 4 "Limp_Home" 3 "Regenerative_brake" 2 "Pure_electric_driving" 1 "Charging_while_stop" 0 "Stop" ;
+VAL_TABLE_ VCU_DASH_ChargeStatus_t 3 "Stop_Charging" 2 "Start_Charging" 1 "Charger_connected" 0 "No_charge" ;
+VAL_TABLE_ VCU_DASH_BackModulePTC_t 3 "invalid" 2 "Black_Module_PTC_wind_volume_3" 1 "Black_Module_PTC_wind_volume_2" 0 "Black_Module_PTC_wind_volume_1" ;
+VAL_TABLE_ VCU_DASH_FrontModulePTC_t 3 "Invalid" 2 "Front_Module_PTC_wind_volume_3" 1 "Front_Module_PTC_wind_volume_2" 0 "Front_Module_PTC_wind_volume_1" ;
+VAL_TABLE_ VCU_DASH_GearRange_t 3 "Invalid" 2 "Reverse" 1 "Drive" 0 "Neutral" ;
+VAL_TABLE_ VCU_DASH_FootBrake_t 1 "foot_brake_signal" 0 "no_foot_brake_signal" ;
+VAL_TABLE_ VCU_DASH_HighSpeedFan 1 "on" 0 "off" ;
+VAL_TABLE_ VCU_DASH_PowerOrEconMode_t 1 "Economy_mode" 0 "Power_Mode" ;
+VAL_TABLE_ VCU_DASH_HandBrake_t 1 "Pull_the_handbrake" 0 "handbrake_down" ;
+VAL_TABLE_ VCU_DASH_AirConditioning_t 1 "ON" 0 "OFF" ;
+VAL_TABLE_ VCU_DASH_VacuumPump_t 1 "ON" 0 "OFF" ;
+VAL_TABLE_ VCU_DASH_LowSpeedFan_t 1 "ON" 0 "OFF" ;
+VAL_TABLE_ VCU_DASH_Pumps_t 1 "ON" 0 "OFF" ;
+VAL_TABLE_ VCU_DASH_DCstatus_t 1 "Fault" 0 "no_fault" ;
+VAL_TABLE_ VCU_DASH_BatteryUnderVoltage_t 1 "Battery undervoltage" 0 "Battery_not_undervoltage" ;
+VAL_TABLE_ VCU_DASH_VaccumFailure_t 1 "fault" 0 "no_ault" ;
+VAL_TABLE_ VCU_DASH_ControllerFailure_t 3 "Alarm" 2 "Common_Fault_speed_limited" 1 "Serious_Fault_immediately_stop" 0 "No_Fault" ;
+VAL_TABLE_ VCU_DASH_VehicleOperatingState_t 1 "Ready" 0 "not_ready" ;
+
+
+BO_ 1811 DEMO_MESSAGE_TX3: 8 CAN_DIAGNOSTICS
+ SG_ Demo_Signal_Tx3_4 : 55|16@0+ (0.1,0) [0|0] "m/s" Vector__XXX
+ SG_ Demo_Signal_Tx3_3 : 39|16@0+ (0.1,0) [0|0] "m/s" Vector__XXX
+ SG_ Demo_Signal_Tx3_2 : 23|16@0+ (0.1,0) [0|0] "m/s" Vector__XXX
+ SG_ Demo_Signal_Tx3_1 : 7|16@0+ (0.1,0) [0|0] "m/s" Vector__XXX
+
+BO_ 1810 DEMO_MESSAGE_TX2: 8 CAN_SECONDARY
+ SG_ Demo_Signal_Tx2_4 : 55|16@0+ (0.1,0) [0|0] "m/s" Vector__XXX
+ SG_ Demo_Signal_Tx2_3 : 39|16@0+ (0.1,0) [0|0] "m/s" Vector__XXX
+ SG_ Demo_Signal_Tx2_2 : 23|16@0+ (0.1,0) [0|0] "m/s" Vector__XXX
+ SG_ Demo_Signal_Tx2_1 : 7|16@0+ (0.1,0) [0|0] "m/s" Vector__XXX
+
+BO_ 1795 DEMO_MESSAGE_RX3: 8 CAN_DIAGNOSTICS
+ SG_ Demo_Signal_Rx3_4 : 55|16@0+ (0.1,0) [0|0] "m/s" Vector__XXX
+ SG_ Demo_Signal_Rx3_3 : 39|16@0+ (0.1,0) [0|0] "m/s" Vector__XXX
+ SG_ Demo_Signal_Rx3_2 : 23|16@0+ (0.1,0) [0|0] "m/s" Vector__XXX
+ SG_ Demo_Signal_Rx3_1 : 7|16@0+ (0.1,0) [0|0] "m/s" Vector__XXX
+
+BO_ 1794 DEMO_MESSAGE_RX2: 8 CAN_SECONDARY
+ SG_ Demo_Signal_Rx2_4 : 55|16@0+ (0.1,0) [0|0] "m/s" Vector__XXX
+ SG_ Demo_Signal_Rx2_3 : 39|16@0+ (0.1,0) [0|0] "m/s" Vector__XXX
+ SG_ Demo_Signal_Rx2_2 : 23|16@0+ (0.1,0) [0|0] "m/s" Vector__XXX
+ SG_ Demo_Signal_Rx2_1 : 7|16@0+ (0.1,0) [0|0] "m/s" Vector__XXX
+
+BO_ 1793 DEMO_MESSAGE_RX1: 8 CAN_MAIN
+ SG_ Demo_Signal_Rx1_4 : 55|16@0+ (0.1,0) [0|0] "m/s" Vector__XXX
+ SG_ Demo_Signal_Rx1_3 : 39|16@0+ (0.1,0) [0|0] "m/s" Vector__XXX
+ SG_ Demo_Signal_Rx1_2 : 23|16@0+ (0.1,0) [0|0] "m/s" Vector__XXX
+ SG_ Demo_Signal_Rx1_1 : 7|16@0+ (0.1,0) [0|0] "m/s" Vector__XXX
+
+BO_ 1809 DEMO_MESSAGE_TX1: 8 CAN_MAIN
+ SG_ Demo_Signal_Tx1_4 : 55|16@0+ (0.1,0) [0|0] "m/s" Vector__XXX
+ SG_ Demo_Signal_Tx1_3 : 39|16@0+ (0.1,0) [0|0] "m/s" Vector__XXX
+ SG_ Demo_Signal_Tx1_2 : 23|16@0+ (0.1,0) [0|0] "m/s" Vector__XXX
+ SG_ Demo_Signal_Tx1_1 : 7|16@0+ (0.1,0) [0|0] "m/s" Vector__XXX
+
+
+
+BA_DEF_ BU_  "tapas_channel_id" INT 0 0;
+BA_DEF_ BU_  "tapas_baudrate_kbps" INT 0 0;
+BA_DEF_ BO_  "tapas_jitter_ms" INT 0 0;
+BA_DEF_ BO_  "tapas_period_ms" INT 0 0;
+BA_DEF_  "BusType" STRING ;
+BA_DEF_DEF_  "tapas_channel_id" 0;
+BA_DEF_DEF_  "tapas_baudrate_kbps" 0;
+BA_DEF_DEF_  "tapas_jitter_ms" 0;
+BA_DEF_DEF_  "tapas_period_ms" 0;
+BA_DEF_DEF_  "BusType" "CAN";
+BA_ "tapas_baudrate_kbps" BU_ CAN_DIAGNOSTICS 250;
+BA_ "tapas_channel_id" BU_ CAN_DIAGNOSTICS 3;
+BA_ "tapas_baudrate_kbps" BU_ CAN_SECONDARY 500;
+BA_ "tapas_channel_id" BU_ CAN_SECONDARY 2;
+BA_ "tapas_baudrate_kbps" BU_ CAN_MAIN 250;
+BA_ "tapas_channel_id" BU_ CAN_MAIN 1;
+BA_ "tapas_period_ms" BO_ 1811 100;
+BA_ "tapas_jitter_ms" BO_ 1811 0;
+BA_ "tapas_period_ms" BO_ 1810 100;
+BA_ "tapas_jitter_ms" BO_ 1810 0;
+BA_ "tapas_period_ms" BO_ 1795 100;
+BA_ "tapas_jitter_ms" BO_ 1795 10;
+BA_ "tapas_period_ms" BO_ 1794 100;
+BA_ "tapas_jitter_ms" BO_ 1794 10;
+BA_ "tapas_period_ms" BO_ 1793 100;
+BA_ "tapas_jitter_ms" BO_ 1793 10;
+BA_ "tapas_period_ms" BO_ 1809 100;
+BA_ "tapas_jitter_ms" BO_ 1809 0;
+
